@@ -32,7 +32,8 @@
      (checkbox :kungsholmen "Kungsholmen")
      (checkbox :sodermalm "Södermalm")
      (checkbox :danderyd "Danderyd")
-     (checkbox :bergshamra "Bergshamra")]
+     (checkbox :bergshamra "Bergshamra")
+     (checkbox :norra-d "Norra Djurgårdsstaden")]
     [:div.row
      [:div.column
       "Antal rum"

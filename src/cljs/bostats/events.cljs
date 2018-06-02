@@ -60,7 +60,8 @@
                       :kungsholmen "location_ids%5B%5D=473379"
                       :sodermalm   "location_ids%5B%5D=898472"
                       :danderyd    "location_ids%5B%5D=473325"
-                      :bergshamra  "location_ids%5B%5D=473502"}]
+                      :bergshamra  "location_ids%5B%5D=473502"
+                      :norra-d     "location_ids%5B%5D=909910"}]
     (str base-url (str/join "&" (vals (select-keys location-ids (keys (into {} (filter val (:selected-areas db)))))))
          (str "&sold_age=" (if (:sold-age db) (str (:sold-age db) "m") "all")
               (if (:min-room db) (str "&rooms_min=" (:min-room db)))
